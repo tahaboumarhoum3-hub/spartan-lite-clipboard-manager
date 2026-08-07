@@ -1,0 +1,8 @@
+name: "spartan-lite-clipboard-manager"
+description: 'Automation action'
+inputs:
+  token:
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
